@@ -1,1 +1,1 @@
-Why are they changing shape? Just like Rorschach's mask!
+Why are they changing shapes? Just like Rorschach's mask!
