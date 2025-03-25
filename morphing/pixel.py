@@ -7,7 +7,7 @@ class PixelTransformation:
 
     def make_light_pixel_transparent(self, pixel):
         # Light threshold
-        threshold = 10
+        threshold = 200
         
         # If all 3 R, G, B values are greater than the threshold, clear the pixel.
         # If not, keep the pixel as is.
@@ -18,12 +18,23 @@ class PixelTransformation:
         
     def make_light_pixel_white(self, pixel):
         # Light threshold
-        threshold = 600
+        threshold = 200
         
         # If all 3 R, G, B values are greater than the threshold, clear the pixel.
         # If not, keep the pixel as is.
         if pixel[0] + pixel[1] + pixel[2] > threshold:
             return (100, 100, 100)
+        else:
+            return pixel
+        
+    def make_all_pixel_white(self, pixel):
+        # Color sum threshold
+        threshold = 100
+        
+        # If all 3 R, G, B values are greater than the threshold, make it white.
+        # If not, keep the pixel as is.
+        if pixel[3] > threshold:
+            return (255, 255, 255, 255)
         else:
             return pixel
         

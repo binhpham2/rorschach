@@ -14,10 +14,10 @@ if __name__ == "__main__":
     IT_obj.help()
     """
     # Folder path configs (only for running module from root - sumiefolio)
-    image_name = "dragon"
+    image_name = "upwork"
     input_path = f"./inkmotif/input/{image_name}.png"
     output_path = f"./inkmotif/output/{image_name}.png"
-    transform_pixel = PT_obj.make_light_pixel_transparent
+    transform_pixel = PT_obj.make_all_pixel_white
 
     # Transform image
     IT_obj.transform(
