@@ -1,4 +1,4 @@
-_"The noblest service come from nameless hands; and the best servant does his work unseen."_ - Oliver Wendell Holmes, Jr.
+_"The noblest service comes from nameless hands; and the best servant does his work unseen."_ - Oliver Wendell Holmes, Jr.
 
 # Introduction
 
